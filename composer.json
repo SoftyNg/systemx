@@ -1,10 +1,6 @@
 {
     "name": "lawrence/systemx",
-    "autoload": {
-        "psr-4": {
-            "Lawrence\\Systemx\\": "src/"
-        }
-    },
+  
     "authors": [
         {
             "name": "lawrence john",
