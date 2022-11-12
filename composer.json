@@ -1,5 +1,10 @@
 {
-    "name": "Systemx/systemx-mvc",
+    "name": "lawrence/systemx",
+    "autoload": {
+        "psr-4": {
+            "Lawrence\\Systemx\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Lawrence John",
