@@ -8,8 +8,8 @@
 namespace app\models;
 
 
-use Systemx\phpmvc\DbModel;
-use Systemx\phpmvc\UserModel;
+use systemx\SystemxCore\DbModel;
+use systemx\SystemxCore\UserModel;
 
 /**
  * Class Register

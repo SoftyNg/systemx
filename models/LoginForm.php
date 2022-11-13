@@ -8,8 +8,8 @@
 namespace app\models;
 
 
-use Systemx\phpmvc\Application;
-use Systemx\phpmvc\Model;
+use systemx\SystemxCore\Application;
+use systemx\SystemxCore\Model;
 
 /**
  * Class LoginForm

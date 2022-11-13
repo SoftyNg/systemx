@@ -2,7 +2,7 @@
 
 /** @var $model \app\models\LoginForm */
 
-use Systemx\phpmvc\form\Form;
+use systemx\SystemxCore\form\Form;
 
 ?>
 

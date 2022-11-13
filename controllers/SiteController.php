@@ -8,11 +8,11 @@
 namespace app\controllers;
 
 
-use Systemx\phpmvc\Application;
-use Systemx\phpmvc\Controller;
-use Systemx\phpmvc\middlewares\AuthMiddleware;
-use Systemx\phpmvc\Request;
-use Systemx\phpmvc\Response;
+use systemx\SystemxCore\Application;
+use systemx\SystemxCore\Controller;
+use systemx\SystemxCore\middlewares\AuthMiddleware;
+use systemx\SystemxCore\Request;
+use systemx\SystemxCore\Response;
 use app\models\LoginForm;
 use app\models\User;
 
@@ -38,9 +38,7 @@ class SiteController extends Controller
 
     public function login(Request $request)
     {
-        echo '<pre>';
-        var_dump($request->getBody(), $request->getRouteParam('id'));
-        echo '</pre>';
+      
         $loginForm = new LoginForm();
         if ($request->getMethod() === 'post') {
             $loginForm->loadData($request->getBody());

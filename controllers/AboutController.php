@@ -8,7 +8,7 @@
 namespace app\controllers;
 
 
-use Systemx\phpmvc\Controller;
+use systemx\SystemxCore\Controller;
 
 /**
  * Class AboutController

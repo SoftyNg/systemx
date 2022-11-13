@@ -1,5 +1,5 @@
 <?php
-/** @var $this \Systemx\phpmvc\View */
+/** @var $this \systemx\SystemxCore\View */
 
 $this->title = 'Profile';
 ?>
