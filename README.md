@@ -4,7 +4,7 @@ Minimalistic custom framework, helps to simplify complex application.
 
 
 ## The framework is ready for production. .
-**Related core package**: https://github.com/systemx/systemx-core
+**Related core package**: https://github.com/SoftyNg/systemx-core
 
 ----
 ## Installation
