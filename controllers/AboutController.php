@@ -8,12 +8,12 @@
 namespace app\controllers;
 
 
-use systemx\SystemxCore\Controller;
+use Systemx\phpmvc\Controller;
 
 /**
  * Class AboutController
  *
- * @author  Lawrence John <thelaw111@gmail.com>
+ * @author  Lawrence John <thelaw111@gimail.com>
  * @package app\controllers
  */
 class AboutController extends Controller

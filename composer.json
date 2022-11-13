@@ -1,9 +1,8 @@
 {
-    "name": "lawrence/systemx",
-  
+    "name": "systemx/systemx-mvc",
     "authors": [
         {
-            "name": "lawrence john",
+            "name": "Lawrence John",
             "email": "thelaw111@gmail.com"
         }
     ],

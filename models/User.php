@@ -8,13 +8,13 @@
 namespace app\models;
 
 
-use systemx\SystemxCore\DbModel;
-use systemx\SystemxCore\UserModel;
+use Systemx\phpmvc\DbModel;
+use Systemx\phpmvc\UserModel;
 
 /**
  * Class Register
  *
- * @author  Lawrence John <thelaw111@gmail.com>
+ * @author  Lawrence John <thelaw111@gimail.com>
  * @package app\models
  */
 class User extends UserModel

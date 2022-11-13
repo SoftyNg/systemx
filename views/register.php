@@ -1,7 +1,7 @@
 <?php
-/** @var $model \systemx\SystemxCore\Model */
+/** @var $model \Systemx\phpmvc\Model */
 
-use systemx\SystemxCore\form\Form;
+use Systemx\phpmvc\form\Form;
 
 $form = new Form();
 ?>

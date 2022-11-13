@@ -8,13 +8,13 @@
 namespace app\models;
 
 
-use systemx\SystemxCore\Application;
-use systemx\SystemxCore\Model;
+use Systemx\phpmvc\Application;
+use Systemx\phpmvc\Model;
 
 /**
  * Class LoginForm
  *
- * @author  Lawrence John <thelaw111@gmail.com>
+ * @author  Lawrence John <thelaw111@gimail.com>
  * @package app\models
  */
 class LoginForm extends Model

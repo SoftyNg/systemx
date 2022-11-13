@@ -8,18 +8,18 @@
 namespace app\controllers;
 
 
-use systemx\SystemxCore\Application;
-use systemx\SystemxCore\Controller;
-use systemx\SystemxCore\middlewares\AuthMiddleware;
-use systemx\SystemxCore\Request;
-use systemx\SystemxCore\Response;
+use Systemx\phpmvc\Application;
+use Systemx\phpmvc\Controller;
+use Systemx\phpmvc\middlewares\AuthMiddleware;
+use Systemx\phpmvc\Request;
+use Systemx\phpmvc\Response;
 use app\models\LoginForm;
 use app\models\User;
 
 /**
  * Class SiteController
  *
- * @author  Lawrence John <thelaw111@gmail.com>
+ * @author  Lawrence John <thelaw111@gimail.com>
  * @package app\controllers
  */
 class SiteController extends Controller
