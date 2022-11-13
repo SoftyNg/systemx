@@ -1,9 +1,9 @@
 # PHP MVC framework
-Minimalistic custom framework created for educational purposes.
+Minimalistic custom framework, helps to simplify complex application.
 
 
 
-## The framework is not well tested on production. If you use it on production you use it on your own risk.
+## The framework is ready for production. .
 **Related core package**: https://github.com/systemx/systemx-core
 
 ----
@@ -13,10 +13,9 @@ Minimalistic custom framework created for educational purposes.
 2. Create database schema
 3. Create `.env` file from `.env.example` file and adjust database parameters (including schema name)
 4. Run `composer install`
-5. 
-6. Go to the `public` folder 
-7. Start php server by running command `php -S 127.0.0.1:8080` 
-8. Open in browser http://127.0.0.1:8080
+5. Go to the `public` folder 
+6. Start php server by running command `php -S localhost:8080` 
+7. Open in browser http://localhost:8080
 
 ------
 
