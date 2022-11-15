@@ -26,7 +26,7 @@ A framework designed to help you simplify complex application.
 <a href="https://packagist.org/packages/systemx/systemx-core"><img src="https://img.shields.io/packagist/dt/systemx/systemx-core" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/systemx/systemx-core"><img src="https://img.shields.io/packagist/v/systemx/systemx-core" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/systemx/systemx-core"><img src="https://img.shields.io/packagist/l/systemx/systemx-core" alt="License"></a>
-<a href="https://packagist.org/packages/systemx/systemx-core"><img src=
+
 </p>
 
 
