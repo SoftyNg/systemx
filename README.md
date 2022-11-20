@@ -19,7 +19,9 @@ A framework designed to help you simplify complex application.
 
 ------
 
-<p align="center"><a href="https://Systemx.com" target="_blank"><img src="https://raw.githubusercontent.com/Systemx/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/Systemx-logolockup-cmyk-red.svg" width="400" alt="Systemx Logo"></a></p>
+<p align="center"><a href="https://Systemx.com" target="_blank">
+<img src="https://raw.githubusercontent.com/Systemx/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/Systemx-logolockup-cmyk-red.svg"
+ width="400" alt="Systemx Logo"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/Systemx/framework"><img src="https://travis-ci.org/Systemx/framework.svg" alt="Build Status"></a>
