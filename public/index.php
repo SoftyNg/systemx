@@ -7,7 +7,7 @@
 
 
 
-use app\controllers\MyController;
+use app\controllers\Welcome;
 use systemx\SystemxCore\Application;
 
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -26,7 +26,7 @@ $app = new Application(dirname(__DIR__), $config);
 
 
 
-$app->router->get('/', [MyController::class, 'home']);
+$app->router->get('/', [Welcome::class, 'home']);
 
 
 $app->run();

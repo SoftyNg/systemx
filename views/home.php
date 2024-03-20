@@ -9,7 +9,9 @@ use systemx\SystemxCore\Application;?>
 	       
 	        <div class="container-fluid position-relative">
                            
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse"  aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbar-collapse"  aria-controls="navbar-collapse" 
+                aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -18,8 +20,9 @@ use systemx\SystemxCore\Application;?>
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item"><a class="nav-link scrollto" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link scrollto" href="#">Documentations</a></li>
-                        <li class="nav-item"><a class="nav-link scrollto" href="#">Contribute</a></li>                        
+                        <li class="nav-item"><a class="nav-link " 
+                        href="https://systemxmvc.com/documentation">Documentations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://systemxmvc.com/contribute">Contribute</a></li>                        
                        
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
@@ -36,7 +39,7 @@ use systemx\SystemxCore\Application;?>
                 </div><!--//branding-->
                 <div class="tagline">
                     <p><h3><b>The framework which simplifies building of complex applications</b></h3></p>
-                    <p>Version<i class="fas fa-heart"></i> v1.0.4</p>
+                    <p>Version<i class="fas fa-heart"></i> v1.1.0</p>
                 </div><!--//tagline-->
                 
 	             
@@ -53,7 +56,7 @@ use systemx\SystemxCore\Application;?>
 						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div><!--//tweet-->
                     <!-- Replace with your Facebook Button -->
-                    <div class="fb-like" data-href="https://themes.3rdwavemedia.com/" data-width="" data-layout="button_count" data-action="like" 
+                    <div class="fb-like" data-href="" data-width="" data-layout="button_count" data-action="like" 
 					data-size="small" data-share="true"></div>         
                  </div><!--//social-container-->
                  
@@ -80,7 +83,7 @@ systemx, feel free to go through the available simple tutorials to guide you in 
                             <h3 class="title">Quick Guide</h3>
                             <p class="intro">The Quick Guide has tutorials and reference documentation for the components that make up the framework. Visit the <a href>Quick Guide !</a>
 							</p>
-                            <a class="link" href="start.html"><span></span></a>
+                            <a class="link" href="https://systemxmvc.com/documentation"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-pink item-2 col-lg-4 col-6">
@@ -89,9 +92,10 @@ systemx, feel free to go through the available simple tutorials to guide you in 
                                 <span aria-hidden="true" class="icon fa fa-puzzle-piece"></span>
                             </div><!--//icon-holder-->
                             <h3 class="title">Components</h3>
-                            <p class="intro">Systemx is a community-developed open source project, feel free to join our community so as to add
+                            <p class="intro">Systemx is a community-developed open source project, feel 
+                                free to join our community so as to add
 create and add your favourite components <a href>Systemx forum</>!</p>
-                            <a class="link" href="components.html"><span></span></a>
+                            <a class="link" href=""><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     
@@ -102,7 +106,7 @@ create and add your favourite components <a href>Systemx forum</>!</p>
                             </div><!--//icon-holder-->
                             <h3 class="title">Contribute</h3>
                             <p class="intro">Contribute your code using github <a href>Join us now</a></p>
-                            <a class="link" href="faqs.html"><span></span></a>
+                            <a class="link" href="https://github.com/SoftyNg/systemx/"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     
@@ -116,7 +120,8 @@ create and add your favourite components <a href>Systemx forum</>!</p>
         <footer class="footer text-center">
         <div class="container">
 		
-                        <small class="copyright">Systemx is open source project released under the MIT open source licence</small>
+                        <small class="copyright">Systemx is open source project released under the 
+                            MIT open source licence</small>
             
         </div><!--//container-->
     </footer><!--//footer-->

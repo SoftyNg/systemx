@@ -15,12 +15,12 @@ use systemx\SystemxCore\Request;
 use systemx\SystemxCore\Response;
 
 /**
- * Class MyController
+ * Class Welcome
  *
  * @author  Lawrence John <thelaw111@gmail.com>
  * @package app\controllers
  */
-class MyController extends Controller
+class Welcome extends Controller
 {
     public function __construct()
     {
