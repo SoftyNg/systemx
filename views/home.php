@@ -1,7 +1,6 @@
 <?php
 $this->title = 'Systemx-home';
-
-use systemx\SystemxCore\Application;?>
+?>
 <div class="page-wrapper">
       <!-- ******HEADER****** --> 
     <header  class="header text-center"> 

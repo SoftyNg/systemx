@@ -10,7 +10,6 @@ namespace app\controllers;
 
 use systemx\SystemxCore\Application;
 use systemx\SystemxCore\Controller;
-use systemx\SystemxCore\middlewares\AuthMiddleware;
 use systemx\SystemxCore\Request;
 use systemx\SystemxCore\Response;
 
@@ -22,11 +21,7 @@ use systemx\SystemxCore\Response;
  */
 class Welcome extends Controller
 {
-    public function __construct()
-    {
-        $this->registerMiddleware(new AuthMiddleware(['profile']));
-    }
-
+ 
     public function home()
     {
         return $this->render('home', [
