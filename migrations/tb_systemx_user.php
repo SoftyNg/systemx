@@ -8,7 +8,7 @@
 class tb_systemx_user {
     public function up()
     {
-        $db = \app\engine\Application::$app->db;
+        $db = \systemx\SystemxCore\Application::$app->db;
         $SQL = "CREATE TABLE  tb_systemx_user(
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 username VARCHAR(255) NOT NULL,
@@ -21,7 +21,7 @@ class tb_systemx_user {
 
     public function down()
     {
-        $db = \app\engine\Application::$app->db;
+        $db = \systemx\SystemxCore\Application::$app->db;
         $SQL = "DROP TABLE tb_systemx_user;";
         $db->pdo->exec($SQL);
     }
