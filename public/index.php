@@ -8,7 +8,7 @@
 
 
 use app\controllers\Welcome;
-use systemx\SystemxCore\Application;
+use systemx\SystemxCore\Systemx;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 $dotenv = \Dotenv\Dotenv::createImmutable(dirname(__DIR__));
@@ -22,7 +22,7 @@ $config = [
     ]
 ];
 
-$app = new Application(dirname(__DIR__), $config);
+$app = new Systemx(dirname(__DIR__), $config);
 
 
 

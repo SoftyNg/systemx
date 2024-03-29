@@ -5,7 +5,7 @@
  * Time: 8:21 AM
  */
 
-use systemx\SystemxCore\Application;
+use systemx\SystemxCore\Systemx;
 
 require_once __DIR__.'/vendor/autoload.php';
 $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
@@ -20,6 +20,6 @@ $config = [
     ]
 ];
 
-$app = new Application(__DIR__, $config);
+$app = new Systemx(__DIR__, $config);
 
 $app->db->applyMigrations();

@@ -7,8 +7,6 @@
 
 namespace app\controllers;
 
-
-use systemx\SystemxCore\Application;
 use systemx\SystemxCore\Controller;
 use systemx\SystemxCore\Request;
 use systemx\SystemxCore\Response;
