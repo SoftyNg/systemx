@@ -22,9 +22,7 @@ class Welcome extends Controller
  
     public function home()
     {
-        return $this->render('home', [
-            'name' => 'Systemx'
-        ]);
+        return $this->render('home');
     }
 
     
