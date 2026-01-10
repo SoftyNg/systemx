@@ -12,9 +12,10 @@ if (!function_exists('site_info')) {
      */
     function site_info($key) {
         $info = [
-            'name'  => defined('SITE_NAME') ? SITE_NAME : 'InstaInvest',
-            'email' => defined('SUPPORT_EMAIL') ? SUPPORT_EMAIL : 'support@instainvest.com.ng',
+            'name'  => defined('SITE_NAME') ? SITE_NAME : 'Systemx',
+            'email' => defined('SUPPORT_EMAIL') ? SUPPORT_EMAIL : 'support@systemxmvc.com',
             'url'   => defined('SITE_URL') ? SITE_URL : 'http://localhost',
+            'phone'   => defined('PHONE') ? PHONE : '+234 812345678',
         ];
         return $info[$key] ?? null;
     }
