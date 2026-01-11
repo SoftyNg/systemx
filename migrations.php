@@ -11,15 +11,12 @@ require_once __DIR__.'/vendor/autoload.php';
 $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-$config = [
-    'userClass' => \app\models\User::class,//change this to your user class
-    'db' => [
-        'dsn' => $_ENV['DB_DSN'],
-        'user' => $_ENV['DB_USER'],
-        'password' => $_ENV['DB_PASSWORD'],
-    ]
-];
-
+require_once __DIR__ . '/constant/config.php';
 $app = new Systemx(__DIR__, $config);
 
-$app->db->applyMigrations();
+// Check if you typed 'rollback' in the terminal
+if (isset($argv[1]) && $argv[1] === 'rollback') {
+    $app->db->rollbackMigrations();
+} else {
+    $app->db->applyMigrations();
+}
