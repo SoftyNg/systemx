@@ -16,6 +16,7 @@ if (!function_exists('site_info')) {
             'email' => defined('SUPPORT_EMAIL') ? SUPPORT_EMAIL : 'support@systemxmvc.com',
             'url'   => defined('SITE_URL') ? SITE_URL : 'http://localhost',
             'phone'   => defined('PHONE') ? PHONE : '+234 812345678',
+			'address' => defined('ADDRESS') ? ADDRESS : 'Abuja Nigeria',
         ];
         return $info[$key] ?? null;
     }
